@@ -13,121 +13,119 @@
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="염창 가라오케 예약 — 조건별 선택 가이드와 체크리스트">
 <meta name="twitter:description" content="염창 지역 가라오케 예약을 위한 실질적인 선택 기준을 제공합니다. 인원 규모·목적·시간대 등 상황별 체크리스트와 이용 전 확인사항을 확인하고 현명하게 예약하세요.">
-<meta name="bpaas-design-system" content="editorial-apple">
-<meta name="bpaas-design-theme" content="kr-mono-chrome">
 <style>
 :root{
-  --primary:#111111;
-  --secondary:#ffffff;
-  --accent:#2563eb;
-  font-family:system-ui, Inter, sans-serif;
+ --primary:#111111;
+ --secondary:#ffffff;
+ --accent:#2563eb;
+ font-family:system-ui, Inter, sans-serif;
 }
 body{
-  margin:0;
-  color:var(--primary);
-  background:#f5f5f5;
+ margin:0;
+ color:var(--primary);
+ background:#f5f5f5;
 }
 header{
-  position:sticky;
-  top:0;
-  background:var(--secondary);
-  border-bottom:1px solid #e0e0e0;
-  z-index:10;
+ position:sticky;
+ top:0;
+ background:var(--secondary);
+ border-bottom:1px solid #e0e0e0;
+ z-index:10;
 }
 nav{
-  max-width:760px;
-  margin:auto;
-  display:flex;
-  justify-content:flex-end;
-  align-items:center;
-  padding:12px 24px;
+ max-width:760px;
+ margin:auto;
+ display:flex;
+ justify-content:flex-end;
+ align-items:center;
+ padding:12px 24px;
 }
 nav ul{
-  list-style:none;
-  display:flex;
-  gap:16px;
-  margin:0;
-  padding:0;
+ list-style:none;
+ display:flex;
+ gap:16px;
+ margin:0;
+ padding:0;
 }
 nav li{
-  order:0;
+ order:0;
 }
 nav a{
-  text-decoration:none;
-  color:var(--primary);
-  font-weight:500;
+ text-decoration:none;
+ color:var(--primary);
+ font-weight:500;
 }
 nav a:hover{
-  color:var(--accent);
+ color:var(--accent);
 }
 #menu-toggle{
-  display:none;
+ display:none;
 }
 @media (max-width:768px){
-  nav ul{
-    flex-direction:column;
-    background:var(--secondary);
-    position:absolute;
-    top:60px;
-    right:0;
-    width:200px;
-    border:1px solid #e0e0e0;
-    display:none;
-  }
-  nav ul.show{
-    display:flex;
-  }
-  #menu-toggle{
-    display:block;
-    background:none;
-    border:none;
-    font-size:1.5rem;
-    cursor:pointer;
-  }
+ nav ul{
+ flex-direction:column;
+ background:var(--secondary);
+ position:absolute;
+ top:60px;
+ right:0;
+ width:200px;
+ border:1px solid #e0e0e0;
+ display:none;
+ }
+ nav ul.show{
+ display:flex;
+ }
+ #menu-toggle{
+ display:block;
+ background:none;
+ border:none;
+ font-size:1.5rem;
+ cursor:pointer;
+ }
 }
 .container{
-  max-width:760px;
-  margin:auto;
-  padding:0 24px;
+ max-width:760px;
+ margin:auto;
+ padding:0 24px;
 }
 section{
-  padding:48px 0;
-  border-top:1px solid #e0e0e0;
+ padding:48px 0;
+ border-top:1px solid #e0e0e0;
 }
 section:first-of-type{
-  border-top:none;
+ border-top:none;
 }
 h1{
-  font-family:"Times New Roman", serif;
-  font-size:2.4rem;
-  line-height:1.2;
-  margin:0;
+ font-family:"Times New Roman", serif;
+ font-size:2.4rem;
+ line-height:1.2;
+ margin:0;
 }
 h2{
-  font-size:1.8rem;
-  margin-top:0;
+ font-size:1.8rem;
+ margin-top:0;
 }
 p{
-  line-height:1.6;
-  margin:1em 0;
+ line-height:1.6;
+ margin:1em 0;
 }
 button{
-  background:var(--accent);
-  color:#fff;
-  border:none;
-  padding:12px 24px;
-  border-radius:12px;
-  cursor:pointer;
+ background:var(--accent);
+ color:#fff;
+ border:none;
+ padding:12px 24px;
+ border-radius:12px;
+ cursor:pointer;
 }
 button:hover{
-  background:#1d4ed8;
+ background:#1d4ed8;
 }
 .card{
-  border:1px solid #e0e0e0;
-  border-radius:24px;
-  box-shadow:0 8px 30px rgba(0,0,0,0.02);
-  padding:24px;
-  margin-bottom:24px;
+ border:1px solid #e0e0e0;
+ border-radius:24px;
+ box-shadow:0 8px 30px rgba(0,0,0,0.02);
+ padding:24px;
+ margin-bottom:24px;
 }
 .t-img-fofl{background:linear-gradient(135deg, #111111 0%, #ffffff 100%);color:#fff;padding:40px 0;text-align:center;}
 .q-top-1x2y img{max-width:100%;height:auto;display:block;margin:auto;}
@@ -136,157 +134,157 @@ button:hover{
 </style>
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"LocalBusiness",
-  "name":"염창 가라오케",
-  "url":"https://yeomchang-room-info.mapo-room-guide.xyz/",
-  "address":{
-    "@type":"PostalAddress",
-    "addressLocality":"염창동",
-    "addressRegion":"마포구",
-    "addressCountry":"KR"
-  },
-  "servesCuisine":"노래방",
-  "hasOfferCatalog":{
-    "@type":"OfferCatalog",
-    "name":"가라오케 이용 서비스",
-    "itemListElement":[
-      {"@type":"Service","name":"시간제 예약"},
-      {"@type":"Service","name":"인원 맞춤 방"}
-    ]
-  }
+ "@context":"https://schema.org",
+ "@type":"LocalBusiness",
+ "name":"염창 가라오케",
+ "url":"https://yeomchang-room-info.mapo-room-guide.xyz/",
+ "address":{
+ "@type":"PostalAddress",
+ "addressLocality":"염창동",
+ "addressRegion":"마포구",
+ "addressCountry":"KR"
+ },
+ "servesCuisine":"노래방",
+ "hasOfferCatalog":{
+ "@type":"OfferCatalog",
+ "name":"가라오케 이용 서비스",
+ "itemListElement":[
+ {"@type":"Service","name":"시간제 예약"},
+ {"@type":"Service","name":"인원 맞춤 방"}
+ ]
+ }
 }
 </script>
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"BreadcrumbList",
-  "itemListElement":[
-    {"@type":"ListItem","position":1,"name":"홈","item":"https://yeomchang-room-info.mapo-room-guide.xyz/"},
-    {"@type":"ListItem","position":2,"name":"가라오케 예약","item":"https://yeomchang-room-info.mapo-room-guide.xyz/booking"}
-  ]
+ "@context":"https://schema.org",
+ "@type":"BreadcrumbList",
+ "itemListElement":[
+ {"@type":"ListItem","position":1,"name":"홈","item":"https://yeomchang-room-info.mapo-room-guide.xyz/"},
+ {"@type":"ListItem","position":2,"name":"가라오케 예약","item":"https://yeomchang-room-info.mapo-room-guide.xyz/booking"}
+ ]
 }
 </script>
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"FAQPage",
-  "mainEntity":[
-    {
-      "@type":"Question",
-      "name":"염창 가라오케는 사전 예약이 필수인가요?",
-      "acceptedAnswer":{"@type":"Answer","text":"예, 특히 주말이나 저녁 시간대는 사전 예약을 권장합니다. 현장 방문 시 대기 시간이 길어질 수 있습니다."}
-    },
-    {
-      "@type":"Question",
-      "name":"인원 수에 따라 어떤 방을 선택해야 하나요?",
-      "acceptedAnswer":{"@type":"Answer","text":"4~6명은 일반 방, 7~12명은 대형 방을 선택합니다. 인원 초과 시 추가 비용이 발생할 수 있습니다."}
-    },
-    {
-      "@type":"Question",
-      "name":"예약 시 요구되는 확인 서류는 있나요?",
-      "acceptedAnswer":{"@type":"Answer","text":"개인명으로만 예약 가능하며, 신분증 확인 절차가 있습니다. 기업 예약 시 사업자 등록증을 제출하면 할인 혜택을 받을 수 있습니다."}
-    },
-    {
-      "@type":"Question",
-      "name":"예약 취소는 어떻게 하나요?",
-      "acceptedAnswer":{"@type":"Answer","text":"취소는 예약 24시간 전까지 가능하며, 그 이후에는 전액 결제가 적용됩니다. 사이트 내 마이페이지에서 일괄 취소가 가능합니다."}
-    }
-  ]
+ "@context":"https://schema.org",
+ "@type":"FAQPage",
+ "mainEntity":[
+ {
+ "@type":"Question",
+ "name":"염창 가라오케는 사전 예약이 필수인가요?",
+ "acceptedAnswer":{"@type":"Answer","text":"예, 특히 주말이나 저녁 시간대는 사전 예약을 권장합니다. 현장 방문 시 대기 시간이 길어질 수 있습니다."}
+ },
+ {
+ "@type":"Question",
+ "name":"인원 수에 따라 어떤 방을 선택해야 하나요?",
+ "acceptedAnswer":{"@type":"Answer","text":"4~6명은 일반 방, 7~12명은 대형 방을 선택합니다. 인원 초과 시 추가 비용이 발생할 수 있습니다."}
+ },
+ {
+ "@type":"Question",
+ "name":"예약 시 요구되는 확인 서류는 있나요?",
+ "acceptedAnswer":{"@type":"Answer","text":"개인명으로만 예약 가능하며, 신분증 확인 절차가 있습니다. 기업 예약 시 사업자 등록증을 제출하면 할인 혜택을 받을 수 있습니다."}
+ },
+ {
+ "@type":"Question",
+ "name":"예약 취소는 어떻게 하나요?",
+ "acceptedAnswer":{"@type":"Answer","text":"취소는 예약 24시간 전까지 가능하며, 그 이후에는 전액 결제가 적용됩니다. 사이트 내 마이페이지에서 일괄 취소가 가능합니다."}
+ }
+ ]
 }
 </script>
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@type":"Person",
-  "name":"주현아",
-  "description":"염창 지역 가라오케 정보를 5년간 정리해온 로컬 가이드"
+ "@context":"https://schema.org",
+ "@type":"Person",
+ "name":"주현아",
+ "description":"염창 지역 가라오케 정보를 5년간 정리해온 로컬 가이드"
 }
 </script>
 </head>
 <body>
 <header class="t-img-fofl">
-  <nav>
-    <button id="menu-toggle">☰</button>
-    <ul id="nav-list">
-      <li style="order:3"><a href="#faq">FAQ</a></li>
-      <li style="order:1"><a href="#checklist">확인 체크리스트</a></li>
-      <li style="order:2"><a href="#criteria">선택 기준</a></li>
-      <li style="order:0"><a href="#hero">홈</a></li>
-    </ul>
-  </nav>
+ <nav>
+ <button id="menu-toggle">☰</button>
+ <ul id="nav-list">
+ <li style="order:3"><a href="#faq">FAQ</a></li>
+ <li style="order:1"><a href="#checklist">확인 체크리스트</a></li>
+ <li style="order:2"><a href="#criteria">선택 기준</a></li>
+ <li style="order:0"><a href="#hero">홈</a></li>
+ </ul>
+ </nav>
 </header>
 
 <main class="container">
 <section id="hero" class="t-img-fofl">
-  <h1>염창 가라오케 예약</h1>
-  <p><span class="highlight">🔹</span> 염창 동네에서 가라오케를 찾는다면, 가장 신뢰받는 옵션을 한눈에 비교하고, 체계적인 기준으로 현명하게 예약할 수 있습니다.</p>
-  <p>다음 섹션에서는 인원·목적·시간대별로 고려해야 할 핵심 항목을 제시하고, 예약 전 반드시 점검해야 할 체크리스트를 제공합니다.</p>
-  <button>예약 시작</button>
+ <h1>염창 가라오케 예약</h1>
+ <p><span class="highlight">🔹</span> 염창 동네에서 가라오케를 찾는다면, 가장 신뢰받는 옵션을 한눈에 비교하고, 체계적인 기준으로 현명하게 예약할 수 있습니다.</p>
+ <p>다음 섹션에서는 인원·목적·시간대별로 고려해야 할 핵심 항목을 제시하고, 예약 전 반드시 점검해야 할 체크리스트를 제공합니다.</p>
+ <button>예약 시작</button>
 </section>
 
 <section id="criteria">
-  <h2>선택 기준 – 상황별 우선순위</h2>
-  <p>가라오케를 예약할 때 가장 먼저 확인해야 하는 것은 <strong>이용 목적</strong>입니다. 회식·동호회·생일 파티·연습 등 목적에 따라 필요한 방 규모와 설비가 달라집니다.</p>
-  <p>다음은 주요 목적에 맞는 방 선택 가이드입니다.</p>
-  <ul>
-    <li><strong>회식·기업 행사</strong> – 대형 방(최대 12명)과 마이크, 음향 시설이 구비된 방을 선택합니다.</li>
-    <li><strong>동호회·친목 모임</strong> – 4~6명용 일반 방을 기본으로, 필요 시 추가 좌석을 요청하세요.</li>
-    <li><strong>연습·곡 제작</strong> – 음향 설비가 좋은 방과 마이크가 별도 제공되는 방을 우선 고려합니다.</li>
-    <li><strong>생일·특별 이벤트</strong> – 조명 효과와 테마곡이 가능한 방을 선택하면 분위기를 한층 높일 수 있습니다.</li>
-  </ul>
-  <p>두 번째 확인 항목은 <strong>시간대와 예약 가능성</strong>입니다. 인기 시간대(저녁 7시~10시)는 사전 예약이 필수이며, 주말은 특히 빠르게 마감됩니다.</p>
-  <p>마지막으로 <strong>접근성</strong>을 검토합니다. 염창역·홍대입구역 근처에 위치한 가라오케는 대중교통 이용 시 편리하지만, 차량 이용 시 주차 가능 여부를 사전에 확인하세요.</p>
+ <h2>선택 기준 – 상황별 우선순위</h2>
+ <p>가라오케를 예약할 때 가장 먼저 확인해야 하는 것은 <strong>이용 목적</strong>입니다. 회식·동호회·생일 파티·연습 등 목적에 따라 필요한 방 규모와 설비가 달라집니다.</p>
+ <p>다음은 주요 목적에 맞는 방 선택 가이드입니다.</p>
+ <ul>
+ <li><strong>회식·기업 행사</strong> – 대형 방(최대 12명)과 마이크, 음향 시설이 구비된 방을 선택합니다.</li>
+ <li><strong>동호회·친목 모임</strong> – 4~6명용 일반 방을 기본으로, 필요 시 추가 좌석을 요청하세요.</li>
+ <li><strong>연습·곡 제작</strong> – 음향 설비가 좋은 방과 마이크가 별도 제공되는 방을 우선 고려합니다.</li>
+ <li><strong>생일·특별 이벤트</strong> – 조명 효과와 테마곡이 가능한 방을 선택하면 분위기를 한층 높일 수 있습니다.</li>
+ </ul>
+ <p>두 번째 확인 항목은 <strong>시간대와 예약 가능성</strong>입니다. 인기 시간대(저녁 7시~10시)는 사전 예약이 필수이며, 주말은 특히 빠르게 마감됩니다.</p>
+ <p>마지막으로 <strong>접근성</strong>을 검토합니다. 염창역·홍대입구역 근처에 위치한 가라오케는 대중교통 이용 시 편리하지만, 차량 이용 시 주차 가능 여부를 사전에 확인하세요.</p>
 </section>
 
 <section id="checklist">
-  <h2>예약 전 확인 체크리스트</h2>
-  <p>예약 전 반드시 확인해야 할 사항을 체크리스트 형태로 정리했습니다. 모두 확인 후 예약을 진행하면 현장 혼란을 최소화할 수 있습니다.</p>
-  <ol>
-    <li>인원 수와 방 규모 매칭 여부</li>
-    <li>이용 목적에 맞는 설비(마이크·음향·조명) 제공 여부</li>
-    <li>예약 시간대와 최소 이용 시간 확인</li>
-    <li>접근성(대중교통·주차)과 주변 편의시설 점검</li>
-    <li>취소·환불 정책(24시간 전 취소 가능 여부) 확인</li>
-    <li>신분증 확인 절차와 필요 서류(사업자 등록증 등) 여부</li>
-  </ol>
-  <p>위 항목을 모두 만족한다면, <a href="#hero"><button>바로 예약하기</button></a>를 클릭해 주세요.</p>
+ <h2>예약 전 확인 체크리스트</h2>
+ <p>예약 전 반드시 확인해야 할 사항을 체크리스트 형태로 정리했습니다. 모두 확인 후 예약을 진행하면 현장 혼란을 최소화할 수 있습니다.</p>
+ <ol>
+ <li>인원 수와 방 규모 매칭 여부</li>
+ <li>이용 목적에 맞는 설비(마이크·음향·조명) 제공 여부</li>
+ <li>예약 시간대와 최소 이용 시간 확인</li>
+ <li>접근성(대중교통·주차)과 주변 편의시설 점검</li>
+ <li>취소·환불 정책(24시간 전 취소 가능 여부) 확인</li>
+ <li>신분증 확인 절차와 필요 서류(사업자 등록증 등) 여부</li>
+ </ol>
+ <p>위 항목을 모두 만족한다면, <a href="#hero"><button>바로 예약하기</button></a>를 클릭해 주세요.</p>
 </section>
 
 <section id="details">
-  <h2>조건별 적합성 – 세부 상황별 팁</h2>
-  <p>다음은 인원·시간·목적에 따라 구체적인 선택 팁을 제시합니다.</p>
-  <h3>소규모(2~4명) – 개인 연습·소규모 모임</h3>
-  <p>소규모인 경우, 2인용 방이나 4인용 방을 선택하고, 예약 최소 1시간으로 비용을 절감할 수 있습니다. 마이크 하나만 필요하면 별도 장비 요청이 불필요합니다.</p>
-  <h3>중규모(5~9명) – 동호회·소규모 파티</h3>
-  <p>중규모 인원은 일반 방(6인) 혹은 9인용 방을 조합해 사용합니다. 음향 설비와 조명 옵션을 추가하면 분위기가 한층 살아납니다.</p>
-  <h3>대규모(10명 이상) – 기업 행사·대규모 파티</h3>
-  <p>대규모 인원은 대형 방(12인) 또는 두 개의 인접 방을 병합해 사용합니다. 사전 현장 방문을 통해 테이블 배치와 음향 분배를 점검하는 것이 좋습니다.</p>
+ <h2>조건별 적합성 – 세부 상황별 팁</h2>
+ <p>다음은 인원·시간·목적에 따라 구체적인 선택 팁을 제시합니다.</p>
+ <h3>소규모(2~4명) – 개인 연습·소규모 모임</h3>
+ <p>소규모인 경우, 2인용 방이나 4인용 방을 선택하고, 예약 최소 1시간으로 비용을 절감할 수 있습니다. 마이크 하나만 필요하면 별도 장비 요청이 불필요합니다.</p>
+ <h3>중규모(5~9명) – 동호회·소규모 파티</h3>
+ <p>중규모 인원은 일반 방(6인) 혹은 9인용 방을 조합해 사용합니다. 음향 설비와 조명 옵션을 추가하면 분위기가 한층 살아납니다.</p>
+ <h3>대규모(10명 이상) – 기업 행사·대규모 파티</h3>
+ <p>대규모 인원은 대형 방(12인) 또는 두 개의 인접 방을 병합해 사용합니다. 사전 현장 방문을 통해 테이블 배치와 음향 분배를 점검하는 것이 좋습니다.</p>
 </section>
 
 <section id="faq">
-  <h2>자주 묻는 질문</h2>
-  <div class="t-wrap-f2ll">
-    <blockquote>염창 가라오케는 사전 예약이 필수인가요?</blockquote>
-    <p>예, 특히 주말이나 저녁 시간대는 사전 예약을 권장합니다. 현장 방문 시 대기 시간이 길어질 수 있습니다.</p>
-    <blockquote>인원 수에 따라 어떤 방을 선택해야 하나요?</blockquote>
-    <p>4~6명은 일반 방, 7~12명은 대형 방을 선택합니다. 인원 초과 시 추가 비용이 발생할 수 있습니다.</p>
-    <blockquote>예약 시 요구되는 확인 서류는 있나요?</blockquote>
-    <p>개인명으로만 예약 가능하며, 신분증 확인 절차가 있습니다. 기업 예약 시 사업자 등록증을 제출하면 할인 혜택을 받을 수 있습니다.</p>
-    <blockquote>예약 취소는 어떻게 하나요?</blockquote>
-    <p>취소는 예약 24시간 전까지 가능하며, 그 이후에는 전액 결제가 적용됩니다. 사이트 내 마이페이지에서 일괄 취소가 가능합니다.</p>
-  </div>
+ <h2>자주 묻는 질문</h2>
+ <div class="t-wrap-f2ll">
+ <blockquote>염창 가라오케는 사전 예약이 필수인가요?</blockquote>
+ <p>예, 특히 주말이나 저녁 시간대는 사전 예약을 권장합니다. 현장 방문 시 대기 시간이 길어질 수 있습니다.</p>
+ <blockquote>인원 수에 따라 어떤 방을 선택해야 하나요?</blockquote>
+ <p>4~6명은 일반 방, 7~12명은 대형 방을 선택합니다. 인원 초과 시 추가 비용이 발생할 수 있습니다.</p>
+ <blockquote>예약 시 요구되는 확인 서류는 있나요?</blockquote>
+ <p>개인명으로만 예약 가능하며, 신분증 확인 절차가 있습니다. 기업 예약 시 사업자 등록증을 제출하면 할인 혜택을 받을 수 있습니다.</p>
+ <blockquote>예약 취소는 어떻게 하나요?</blockquote>
+ <p>취소는 예약 24시간 전까지 가능하며, 그 이후에는 전액 결제가 적용됩니다. 사이트 내 마이페이지에서 일괄 취소가 가능합니다.</p>
+ </div>
 </section>
 
 <section class="q-top-1x2y">
-  <img src="placeholder1.jpg" alt="graphic_element_a1b2">
-  <img src="placeholder2.jpg" alt="graphic_element_c3d4">
+ <img src="placeholder1.jpg" alt="graphic_element_a1b2">
+ <img src="placeholder2.jpg" alt="graphic_element_c3d4">
 </section>
 
 </main>
 
 <footer style="background:var(--secondary);padding:24px 0;text-align:center;">
-  <p>© 2026 염창 가라오케 정보 가이드. All rights reserved.</p>
+ <p>© 2026 염창 가라오케 정보 가이드. All rights reserved.</p>
 </footer>
 
 <!-- cache_id:a1b2c3d4e5f6 -->
@@ -294,8 +292,8 @@ button:hover{
 
 <script>
 document.getElementById('menu-toggle').addEventListener('click',function(){
-  var nav=document.getElementById('nav-list');
-  nav.classList.toggle('show');
+ var nav=document.getElementById('nav-list');
+ nav.classList.toggle('show');
 });
 </script>
 </body>
